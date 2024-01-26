@@ -28,6 +28,9 @@ imageElement.setAttribute("alt", `profile image of ${fullName}`)
 let foods = ["Pizza" , "Hamburguer", "Fried Chicken", "French Fries"]
 
 foodElement.innerHTML += `<br>${foods}`
+foods.shift()
+foodElement.innerHTML += `<br>${foods}`
+foods.pop()
 
 
 
