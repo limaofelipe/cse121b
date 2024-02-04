@@ -82,7 +82,7 @@ function calculateTotal() {
 let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 document.querySelector('#array').innerHTML = numbersArray
 /* Output Odds Only Array */
-document.querySelector('#odds').innerHTML = numbersArray.filter(number => number % 2 === 0)
+document.querySelector('#odds').innerHTML = numbersArray.filter(number => number % 2 === 1)
 /* Output Evens Only Array */
 document.querySelector('#evens').innerHTML = numbersArray.filter(number => number % 2 === 0)
 
